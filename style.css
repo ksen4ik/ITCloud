@@ -749,6 +749,9 @@ p.home__welcome-text > span {
 .application__popup {
     position: relative;
     padding: 80px 60px;
+    margin: 16px;
+    width: 100%;
+    max-width: 520px;
     background: #AFAFDC;
 }
 .application__close {
@@ -775,9 +778,12 @@ p.home__welcome-text > span {
     align-items: center;
     gap: 24px;
 }
+.popup-form-input, .popup-form-textarea {
+    width: 100%;
+}
 .popup-form-input input, .popup-form-textarea textarea, .popup-form-input select {
     padding: 12px 24px;
-    width: 400px;
+    width: 100%;
     outline: none;
     border: none;
 }
@@ -794,6 +800,15 @@ p.home__welcome-text > span {
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 767px) {
+    .application__popup {
+        padding: 40px 24px;
+    }
+    .application__content {
+        gap: 23px;
+    }
 }
 
 
