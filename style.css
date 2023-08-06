@@ -17,10 +17,10 @@ h1, h2, h3, h4 {
     color: #29164B;
 }
 h1 {
+    width: 100%;
     font-size: 48px;
 }
 h2 {
-    text-align: center;
     font-size: 32px;
 }
 h3 {
@@ -29,7 +29,7 @@ h3 {
 p, span, a, li, input, input::placeholder, textarea, textarea::placeholder, select, option {
     font-size: 20px;
     font-weight: 400;
-    line-height: 130%;
+    line-height: 140%;
     color: #3F3F3F;
 }
 a {
@@ -85,7 +85,7 @@ body.body-lock {
 }
 .application-button {
     padding: 10px 25px;
-    margin-top: 40px;
+    margin-top: 20px;
     max-width: 200px;
     display: flex;
     justify-content: center;
@@ -96,6 +96,12 @@ body.body-lock {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+    .application-button {
+        margin-top: 0;
+    }
 }
 
 
@@ -366,7 +372,7 @@ p.home__welcome-text > span {
 .about__advantages ul {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
 }
 .about__advantages ul li {
     margin-left: 32px;
@@ -393,15 +399,6 @@ p.home__welcome-text > span {
     }
     .about__image {
         margin: 0 auto;
-        order: 0;
-    }
-    .about__text {
-        width: 100%;
-        order: 1;
-        align-items: center;
-    }
-    .about__advantages {
-        width: 100%;
     }
 }
 @media screen and (max-width: 767px) {
@@ -615,17 +612,65 @@ p.home__welcome-text > span {
     background: #FFFFFF;
 }
 .contacts__container {
-    padding: 40px 24px 80px;
+    padding: 80px 24px 100px;
 }
 .contacts__content {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
+.contacts__info {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contacts__links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacts__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.contacts__link svg {
+    width: 22px;
+    height: 22px;
+}
+.contacts__image {
+    width: 100%;
+    max-width: 700px;
+    overflow: hidden;
+}
+.contacts__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
+@media screen and (max-width: 1023px) {
+    .contacts__content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contacts__image {
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width: 767px) {
     .contacts__container {
         padding: 40px 16px;
+    }
+    .contacts__info {
+        gap: 24px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contacts__content {
+        gap: 24px;
     }
 }
 
@@ -768,6 +813,12 @@ p.home__welcome-text > span {
     }
     .works__image:hover .image-overlay img {
         opacity: 0.7;
+    }
+    .contacts__link:hover p {
+        color: #9E8BDA;
+    }
+    .contacts__link:hover svg path {
+        fill: #9E8BDA;
     }
     .application-button:hover, .home-form-button input:hover, .popup-form-button input:hover, .courses-card:hover .courses-card-button {
         background: #FFFFFF;
