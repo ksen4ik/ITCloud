@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прикол</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__container _container">
+                <div class="header__content">
+                    <a class="header__logo" href="index.html">
+                        <img src="assets/images/general/logooo.png" alt="Site logotype">
+                    </a>
+                    <ul class="header__menu-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#training">Training</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main">
+            <section id="home" class="home">
+                <div class="home__container _container">
+                    <div class="home__content">
+                        <p class="home__welcome-text">let's create masterpieces together</p>
+                        <div class="home__form">
+                            <h3>Contact us</h3>
+                            <form id="home-form" class="home-form" method="post" action="/">
+                                <div class="home-form-input">
+                                    <input type="text" name="home-form-name" id="home-form-name" placeholder="Name">
+                                </div>
+                                <div class="home-form-input">
+                                    <input type="tel" name="home-form-phone" id="home-form-phone" placeholder="Phone">
+                                </div>
+                                <div class="home-form-input">
+                                    <input type="email" name="home-form-email" id="home-form-email" placeholder="Email">
+                                </div>
+                                <div class="home-form-textarea">
+                                    <textarea name="home-form-comment" id="home-form-comment" placeholder="Comment"></textarea>
+                                </div>
+                                <div class="home-form-button">
+                                    <input type="submit" name="home-form-submit" id="home-form-submit" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="about__container _container">
+                    <div class="about__content">
+                        <div class="about__text">
+                            <h1>We are a young company with big ambitions.</h1>
+                            <p>Advantages of working with us:</p>
+                            <ul>
+                                <li>sites of <span>any complexity</span></li>
+                                <li><span>fast</span> and <span>high-quality</span> development</li>
+                                <li><span>creative design</span> tailored to your wishes</li>
+                            </ul>
+                            <a class="application-button app-link-popup-open" href="#application-contacts">Contact us</a>
+                        </div>
+                        <div class="about__image">
+                            <img src="assets/images/about/about-image.png" alt="About us">
+                        </div>
+                    </div>                 
+                </div>
+            </section>
+            <section id="works" class="works">
+                <div class="works__container _container">
+                    <div class="works__content">
+                        <h2>Our works</h2>
+                        <div class="works__cards">
+                            <div class="works__card">
+                                <a class="works__image works__image-plants" href='https://ksen4ik.github.io/Plants/' target="_blank">
+                                    <img src="assets/images/works/plants.png" alt="">
+                                    <div class="image-overlay">
+                                        <img src="assets/images/general/enter-site.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="works__card-info">
+                                    <h3>Plants</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit distinctio repudiandae in totam quibusdam aut rem, excepturi magni temporibus doloremque.</p>
+                                </div>
+                            </div>
+                            <div class="works__card">
+                                <a class="works__image works__image-shelter" href='https://ksen4ik.github.io/Shelter/' target="_blank">
+                                    <img src="assets/images/works/shelter.png" alt="">
+                                    <div class="image-overlay">
+                                        <img src="assets/images/general/enter-site.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="works__card-info">
+                                    <h3>Cozy House</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore non modi accusamus blanditiis nihil aliquid provident tempora sapiente! Alias magnam sit veniam modi ex in vitae cumque! Corporis, facilis?</p>
+                                </div>
+                            </div>
+                            <div class="works__card">
+                                <a class="works__image works__image-styleroom" href='https://ksen4ik.github.io/test-project-shop/' target="_blank">
+                                    <img src="assets/images/works/style-room.png" alt="">
+                                    <div class="image-overlay">
+                                        <img src="assets/images/general/enter-site.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="works__card-info">
+                                    <h3>Style Room</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit distinctio repudiandae in totam quibusdam aut rem, excepturi magni temporibus doloremque.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="training">
+                <div class="training__container _container">
+                    <div class="training__content">
+                        <h2>Training courses</h2>
+                        <div class="training__courses">
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/html.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>HTML</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/css.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>CSS</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/javascript.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>JavaScript</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/php.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>PHP</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/mysql.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>MySQL</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                            <a class="courses-card app-link-popup-open" href="#application-courses">
+                                <div class="courses-card-image">
+                                    <img src="assets/images/courses/wordpress.png" alt="">
+                                </div>
+                                <div class="courses-card-name">
+                                    <p>Wordpress</p>
+                                    <div class="courses-card-button">Start</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts" class="contacts">
+                <div class="contacts__container _container">
+                    <div class="contacts__content">
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="footer__container _container">
+                <div class="footer__content">
+                    <div class="footer__block footer-contacts">
+                        <a href="https://yandex.by/maps/157/minsk/geo/31326029/?ll=27.564692%2C53.912402&z=16.13" target="_blank">Belarus, Minsk, Kiselev st., 256</a>
+                        <a href="mailto:info@itcloud.com">info@itcloud.com</a>
+                        <a href="tel:+375293215476">+375(29) 321-54-76</a>
+                    </div>
+                    <div class="footer__block footer-logo">
+                        <div class="footer__logo">
+                            <img src="assets/images/general/footer-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer__block footer-social">
+                        <p>We are in social networks:</p>
+                        <div class="footer__social-icons">
+                            <a class="footer__social-icon footer-vk" href="#">
+                                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_25980)">
+                                        <circle cx="20" cy="20.5" r="19.5" stroke="#FFFFFF"></circle>
+                                        <path d="M11.7339 15.8411C11.0207 15.8884 10.6641 16.2138 10.6641 16.8174C10.6641 17.0067 10.6948 17.1783 10.7563 17.3322C11.4572 19.2257 12.2135 20.8854 13.0251 22.3115C13.8367 23.7375 14.7497 24.9002 15.7642 25.7996C16.7787 26.699 17.7963 27.1488 18.8169 27.1488H20.6245L20.8828 27.131C21.2763 27.0482 21.5345 26.7996 21.6575 26.3854L21.7128 26.0837C21.7497 25.9298 21.8081 25.6754 21.888 25.3203C21.968 24.9653 22.0325 24.6931 22.0817 24.5038C22.1924 24.5748 22.2785 24.6517 22.34 24.7346C23.4098 26.0363 23.9877 26.7346 24.0738 26.8292C24.3075 27.0541 24.5595 27.1665 24.8301 27.1665C24.8424 27.1665 24.867 27.1635 24.9038 27.1576C24.9407 27.1517 24.9653 27.1488 24.9776 27.1488H27.7813L28.0949 27.131C28.4023 27.1073 28.6667 27.0067 28.888 26.8292C29.1094 26.6517 29.2201 26.4269 29.2201 26.1547C29.2201 25.9298 29.1463 25.7227 28.9987 25.5334L26.3057 22.2671C26.2073 22.1488 26.1581 22.0422 26.1581 21.9476C26.1581 21.8292 26.2135 21.699 26.3241 21.557C26.4594 21.3559 26.7976 20.9357 27.3386 20.2967C27.8797 19.6576 28.3255 19.063 28.6759 18.5127C29.0264 17.9624 29.2446 17.4446 29.3307 16.9594V16.8351C29.3307 16.8233 29.3277 16.776 29.3215 16.6931C29.3154 16.6103 29.3031 16.5275 29.2846 16.4446C29.2662 16.3618 29.2324 16.2848 29.1832 16.2138C29.0479 15.989 28.8573 15.8766 28.6114 15.8766L28.4269 15.8588H25.5679C25.5064 15.8588 25.4511 15.8706 25.4019 15.8943C25.2543 15.9417 25.0822 16.0304 24.8854 16.1606C24.6887 16.2908 24.5472 16.4446 24.4612 16.6221C24.4366 16.6695 24.4243 16.699 24.4243 16.7109C24.3136 17.3263 23.5819 18.5452 22.2293 20.3677C22.094 20.5807 21.9342 20.6872 21.7497 20.6872C21.6759 20.6872 21.596 20.6576 21.5099 20.5985V16.5689C21.5099 16.0837 21.3562 15.7286 21.0488 15.5038C20.7414 15.2789 20.354 15.1665 19.8867 15.1665L18.8538 15.1843C17.6364 15.1843 16.8986 15.5689 16.6403 16.3381C16.628 16.3618 16.6219 16.3973 16.6219 16.4446C16.6219 16.6695 16.7326 16.7996 16.9539 16.8351C17.2367 16.8706 17.4304 16.9239 17.5349 16.9949C17.6395 17.0659 17.6917 17.2079 17.6917 17.4209L17.6733 20.4919L17.6179 20.6872C17.5688 20.7701 17.5011 20.8115 17.4151 20.8115C17.3044 20.8115 17.2244 20.7582 17.1753 20.6517C16.6096 19.8115 16.1515 19.0689 15.8011 18.4239C15.4506 17.7789 15.134 17.0127 14.8512 16.1251C14.7897 15.9476 14.6667 15.8588 14.4822 15.8588L11.7339 15.8411Z" fill="#FFFFFF"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_35_25980">
+                                            <rect width="40" height="40" fill="#FFFFFF" transform="translate(0 0.5)"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-icon footer-instagram" href="#">
+                                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_25989)">
+                                        <circle cx="20" cy="20.5" r="19.5" stroke="#FFFFFF"></circle>
+                                        <path d="M23 12.5H17C14.239 12.5 12 14.739 12 17.5V23.5C12 26.261 14.239 28.5 17 28.5H23C25.761 28.5 28 26.261 28 23.5V17.5C28 14.739 25.761 12.5 23 12.5ZM26.5 23.5C26.5 25.43 24.93 27 23 27H17C15.07 27 13.5 25.43 13.5 23.5V17.5C13.5 15.57 15.07 14 17 14H23C24.93 14 26.5 15.57 26.5 17.5V23.5Z" fill="#FFFFFF"></path>
+                                        <path d="M20 16.5C17.791 16.5 16 18.291 16 20.5C16 22.709 17.791 24.5 20 24.5C22.209 24.5 24 22.709 24 20.5C24 18.291 22.209 16.5 20 16.5ZM20 23C18.622 23 17.5 21.878 17.5 20.5C17.5 19.121 18.622 18 20 18C21.378 18 22.5 19.121 22.5 20.5C22.5 21.878 21.378 23 20 23Z" fill="#FFFFFF"></path>
+                                        <path d="M24.2986 16.733C24.593 16.733 24.8316 16.4944 24.8316 16.2C24.8316 15.9056 24.593 15.667 24.2986 15.667C24.0043 15.667 23.7656 15.9056 23.7656 16.2C23.7656 16.4944 24.0043 16.733 24.2986 16.733Z" fill="#FFFFFF"></path>
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="instagram-icon-gradient" x1="37.321" y1="10.4988" x2="2.6741" y2="30.5012" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#485BDE"></stop>
+                                            <stop offset="0.2" stop-color="#7040B5"></stop>
+                                            <stop offset="0.4" stop-color="#9F2C8F"></stop>
+                                            <stop offset="0.6" stop-color="#BD2F6E"></stop>
+                                            <stop offset="0.8" stop-color="#D86C3D"></stop>
+                                            <stop offset="1" stop-color="#EFC661"></stop>
+                                        </linearGradient>
+                                        <clipPath id="clip0_35_25989">
+                                            <rect width="40" height="40" fill="#FFFFFF" transform="translate(0 0.5)"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-icon footer-facebook" href="#">
+                                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_26014)">
+                                        <circle cx="20" cy="20.5" r="19.5" stroke="#FFFFFF"></circle>
+                                        <path d="M24 12.5H21.8182C20.8538 12.5 19.9288 12.9214 19.2469 13.6716C18.5649 14.4217 18.1818 15.4391 18.1818 16.5V18.9H16V22.1H18.1818V28.5H21.0909V22.1H23.2727L24 18.9H21.0909V16.5C21.0909 16.2878 21.1675 16.0843 21.3039 15.9343C21.4403 15.7843 21.6253 15.7 21.8182 15.7H24V12.5Z" fill="#FFFFFF"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_35_26014">
+                                            <rect width="40" height="40" fill="#FFFFFF" transform="translate(0 0.5)"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-icon footer-twitter" href="#">
+                                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_26005)">
+                                        <circle cx="20" cy="20.5" r="19.5" stroke="#FFFFFF"></circle>
+                                        <path d="M28.1788 14.0465C28.1788 14.0465 27.299 14.7415 26.0649 14.8666C26.0649 14.8666 24.1215 12.7397 21.3409 14.5887C20.0928 15.4504 19.9791 17.2714 20.1919 17.9249C20.1919 17.9249 16.4185 18.2169 13.1273 14.4355C13.1273 14.4355 11.652 16.9377 14.0921 18.9395C14.0921 18.9395 13.3707 19.0509 12.6854 18.4948C12.6854 18.4948 12.3612 21.0804 15.312 21.8034C15.312 21.8034 15.1135 22.137 13.9219 21.8034C13.9219 21.8034 14.1204 23.9162 16.9292 24.2222C16.9292 24.2222 15.4118 25.7512 12 25.5567C12 25.5567 17.6384 29.699 23.7385 24.6946C27.1431 21.8587 27.0297 17.7718 26.9729 17.1603C26.9729 17.1603 28.3177 16.1594 28.6667 15.5198C28.6667 15.5198 27.6255 15.8535 26.7744 15.8535C26.7744 15.8535 27.9091 15.2696 28.1788 14.0465Z" fill="#FFFFFF"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_35_26005">
+                                            <rect width="40" height="40" fill="white" transform="translate(0 0.5)"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer__social-icon footer-ok" href="#">
+                                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_26023)">
+                                        <circle cx="20" cy="20.5" r="19.5" stroke="#FFFFFF"></circle>
+                                        <path d="M19.3822 20.866C17.0816 20.866 15.1992 18.9836 15.1992 16.683C15.1992 14.3823 17.0816 12.5 19.3822 12.5C21.6829 12.5 23.5652 14.3823 23.5652 16.683C23.5652 18.9836 21.6829 20.866 19.3822 20.866ZM19.3822 14.4869C18.1796 14.4869 17.1861 15.4804 17.1861 16.683C17.1861 17.8856 18.1796 18.8791 19.3822 18.8791C20.5848 18.8791 21.5783 17.8856 21.5783 16.683C21.5783 15.4804 20.5848 14.4869 19.3822 14.4869Z" fill="#FFFFFF"></path>
+                                        <path d="M23.8776 21.2845C23.5116 20.8139 22.8841 20.7616 22.4135 21.0753C22.4135 21.0753 21.2632 21.9119 19.3809 21.9119C17.4985 21.9119 16.3482 21.0753 16.3482 21.0753C15.8776 20.7093 15.2502 20.8139 14.8842 21.2845C14.5181 21.7551 14.6227 22.3825 15.0933 22.7485C15.1456 22.8008 16.2436 23.6374 18.0737 23.8988L15.3025 26.7224C14.8842 27.1407 14.8842 27.8204 15.3025 28.1864C15.5116 28.3956 15.773 28.5001 16.0345 28.5001C16.2959 28.5001 16.5574 28.3956 16.7665 28.1864L19.3809 25.5198L21.9953 28.1864C22.2044 28.3956 22.4658 28.5001 22.7273 28.5001C22.9887 28.5001 23.2501 28.3956 23.4593 28.1864C23.8776 27.7681 23.8776 27.1407 23.4593 26.7224L20.6881 23.8988C22.5181 23.5851 23.6162 22.7485 23.6685 22.7485C24.139 22.3825 24.2436 21.7028 23.8776 21.2845Z" fill="#FFFFFF"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_35_26023">
+                                            <rect width="40" height="40" fill="#FFFFFF" transform="translate(0 0.5)"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ----------------------------POPUPS---------------------------- -->
+
+        <div class="application__overlay" id="application-contacts">
+            <div class="application__popup">
+                <div class="application__close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" fill="#FFFFFF"/>
+                    </svg>
+                </div>
+                <div class="application__content">
+                    <h3>Contact us</h3>
+                    <form id="popup-form" class="popup-form" method="post" action="/">
+                        <div class="popup-form-input">
+                            <input type="text" name="popup-form-name" id="popup-form-name" placeholder="Name">
+                        </div>
+                        <div class="popup-form-input">
+                            <input type="tel" name="popup-form-phone" id="popup-form-phone" placeholder="Phone">
+                        </div>
+                        <div class="popup-form-input">
+                            <input type="email" name="popup-form-email" id="popup-form-email" placeholder="Email">
+                        </div>
+                        <div class="popup-form-textarea">
+                            <textarea name="home-form-comment" id="popup-form-comment" placeholder="Comment"></textarea>
+                        </div>
+                        <div class="popup-form-button">
+                            <input type="submit" name="popup-form-submit" id="popup-form-submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="application__overlay" id="application-courses">
+            <div class="application__popup">
+                <div class="application__close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" fill="#FFFFFF"/>
+                    </svg>
+                </div>
+                <div class="application__content">
+                    <h3>Contact us</h3>
+                    <form id="popup-form" class="popup-form" method="post" action="/">
+                        <div class="popup-form-input">
+                            <input type="text" name="popup-form-name" id="popup-form-name" placeholder="Name">
+                        </div>
+                        <div class="popup-form-input">
+                            <input type="tel" name="popup-form-phone" id="popup-form-phone" placeholder="Phone">
+                        </div>
+                        <div class="popup-form-input">
+                            <input type="email" name="popup-form-email" id="popup-form-email" placeholder="Email">
+                        </div>
+                        <div class="popup-form-input">
+                            <select name="" id="">
+                                <option value="" disabled selected>- Choose a course -</option>
+                                <option value="">HTML</option>
+                                <option value="">CSS</option>
+                                <option value="">JavaScript</option>
+                                <option value="">PHP</option>
+                                <option value="">MySQL</option>
+                                <option value="">WordPress</option>
+                            </select>
+                        </div>
+                        <div class="popup-form-textarea">
+                            <textarea name="home-form-comment" id="popup-form-comment" placeholder="Comment"></textarea>
+                        </div>
+                        <div class="popup-form-button">
+                            <input type="submit" name="popup-form-submit" id="popup-form-submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/script-jq.js"></script>
+    <script src="assets/js/script-js.js"></script>
+</body>
+</html>
