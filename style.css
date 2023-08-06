@@ -39,7 +39,20 @@ select {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 32px;
+    }
+}
 @media screen and (max-width: 500px) {
+    h1 {
+        font-size: 28px;
+    }
     h2 {
         font-size: 24px;
     }
@@ -71,9 +84,9 @@ body.body-lock {
     overflow-x: hidden;
 }
 .application-button {
+    padding: 10px 25px;
     margin-top: 40px;
     max-width: 200px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,6 +341,11 @@ p.home__welcome-text > span {
 }
 .about__content {
     display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.about__info {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
@@ -335,23 +353,31 @@ p.home__welcome-text > span {
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
 }
-.about__text ul {
+.about__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.about__advantages p {
+    font-size: 22px;
+}
+.about__advantages ul {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.about__text ul li {
-    margin-left: 48px;
+.about__advantages ul li {
+    margin-left: 32px;
 }
-.about__text ul li span {
+.about__advantages ul li span {
     font-weight: 500;
     color: #391479;
 }
 .about__image {
     width: 100%;
-    max-width: 550px;
+    max-width: 400px;
     overflow: hidden;
 }
 .about__image img {
@@ -360,6 +386,24 @@ p.home__welcome-text > span {
     object-fit: cover;
 }
 
+@media screen and (max-width: 1023px) {
+    .about__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about__image {
+        margin: 0 auto;
+        order: 0;
+    }
+    .about__text {
+        width: 100%;
+        order: 1;
+        align-items: center;
+    }
+    .about__advantages {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 767px) {
     .about__container {
         padding: 40px 16px;
@@ -517,13 +561,12 @@ p.home__welcome-text > span {
     gap: 24px;
 }
 .courses-card-name p {
+    font-size: 24px;
     font-weight: 500;
     text-align: center;
 }
 .courses-card-button {
-    width: 100%;
-    max-width: 200px;
-    height: 50px;
+    padding: 10px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,6 +618,15 @@ p.home__welcome-text > span {
     padding: 40px 24px 80px;
 }
 .contacts__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .contacts__container {
+        padding: 40px 16px;
+    }
 }
 
 
