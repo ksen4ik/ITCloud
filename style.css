@@ -20,19 +20,17 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-size: 38px;
+    text-align: center;
+    font-size: 32px;
 }
 h3 {
     font-size: 28px;
 }
 p, span, a, li, input, input::placeholder, textarea, textarea::placeholder, select, option {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 130%;
     color: #3F3F3F;
-}
-input, input::placeholder, textarea, textarea::placeholder, select, option {
-    font-size: 20px;
 }
 a {
     text-decoration: none;
@@ -305,9 +303,6 @@ p.home__welcome-text > span {
     .home__form {
         padding: 40px 24px;
     }
-    .home__form h2 {
-        font-size: 28px;
-    }
 }
 
 
@@ -390,9 +385,6 @@ p.home__welcome-text > span {
     gap: 24px;
     width: 100%;
     max-width: 700px;
-}
-.works__card-info p {
-    font-size: 22px;
 }
 .works__image {
     position: relative;
@@ -595,7 +587,6 @@ p.home__welcome-text > span {
     gap: 16px;
 }
 .footer__block p, .footer__block a {
-    font-size: 22px;
     color: #FFFFFF;
 }
 .footer__social-icons {
@@ -723,11 +714,6 @@ p.home__welcome-text > span {
     }
     .footer__block a:hover {
         color: #AFBADC;
-    }
-    .footer__social-icon {
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
     }
     .footer-vk:hover svg g circle {
         fill: #2787F5;
